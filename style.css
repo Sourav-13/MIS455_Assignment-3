@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 480px){
+    .heading{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .widthInput{
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .widthInput{
+        width: 315px;
+    }
+}
+
+
+.icon{
+    color:green; 
+    margin-right: 150px;
+}
+
+@media screen and (max-width: 480px){
+    .icon{
+        margin:0px; 
+    }
+}
+.footer{
+    margin-top: 10px;
+    width: 100vw;
+    height:50px; 
+    background-color: black;
+    color:white; 
+    font-size: small;
+}
